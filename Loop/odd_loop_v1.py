@@ -11,5 +11,9 @@ print('Printing odd numbers between 1 and', N, '...')
 
 for n in range(1,N):
     # check condition for being odd
-    if n%2 == 1:
+    if n%2 == 0:
+        pass
+    else:
         print ('Found an odd number', n, '!')
+    #if n%2 == 1:
+    #    print ('Found an odd number', n, '!')
